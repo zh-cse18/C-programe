@@ -1,30 +1,20 @@
 #include<stdio.h>
-//int length(char sr[]);
+int length(char sr[]);
 main()
 {
     char sr[200];
     int count;
-
-
-    printf("Enter any word or sentence\n");
     gets(sr);
     count=length(sr);
-    printf(" \nYou have enter %d character",count);
+    printf("%d",count);
 }
 int length(char sr[])
 {
-
-
-
-    int i,count;
-    for(i=0;i<=200;i++)
+    int gtr=0;
+    while(sr[gtr]!='\0')
     {
-        if(sr[i]=='o')
-        {count =i;
-        break;
-        return count;
-
-        }
+        gtr++;
     }
+    return gtr;
    //printf("%d",gtr);
 }
