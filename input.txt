@@ -1,0 +1,15 @@
+
+# include < stdio.h >
+# include < string.h >
+# include < math.h >
+#include < stdlib.h >
+// start main function
+int main ( ) {
+    int i = 4 , j ;//variable declar
+    int sum1 ;
+    double sum2;
+    double d =  4.0 , d1;
+    scanf ( " % d \n",& j );
+
+    scanf ( " % lf",& d 1);
+   //my name is Zahid

@@ -1,0 +1,7 @@
+print('Alhamdulillh',end='\n')
+print('Your name?')
+name=input()
+print('your name is '+name +' And name length is ' + str(len(name)))
+print('your age ?')
+age=input()
+print('You will be '+str(int(age)+1)+' in the last year')
