@@ -1,0 +1,12 @@
+
+# include < stdio.h >
+# include < string.h >
+# include < math.h >
+#include < stdlib.h >
+int main ( ) {
+    int sum1 ;
+    double sum2;
+    double d =  4.0 , d1;
+    scanf ( " % d \n",& j );
+
+    scanf ( " % lf",& d 1);
